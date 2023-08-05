@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+	import '@skeletonlabs/skeleton/themes/theme-rocket.css';
 	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
 	import { inject } from '@vercel/analytics';
@@ -42,12 +42,12 @@
 
 	const meta = {
 		type: 'website',
-		title: 'SlickGPT',
-		url: 'https://slickgpt.vercel.app/',
+		title: 'CoFi-chat',
+		url: 'https://cofi.chat/',
 		description:
-			'SlickGPT is a light-weight "use-your-own-API-key" ChatGPT client written in Svelte. It offers GPT-4 integration, a userless share feature and other superpowers.',
-		image: '/logo-slickgpt.svg',
-		imageAlt: 'SlickGPT Logo'
+			'Chat with resources about CoFi - Collaborative Finance - seeking more humane alternative economic systems',
+		image: '/logo-cofichat.png',
+		imageAlt: 'Cofi Chat logo'
 	};
 
 	function setupSkeleton() {
